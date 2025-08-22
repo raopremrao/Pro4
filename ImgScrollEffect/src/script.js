@@ -60,11 +60,13 @@ document.addEventListener("DOMContentLoaded", () => {
                 const moveDistance = window.innerWidth * 0.5;
 
                 gsap.set(bannerIntroTextElement[0], {
-                    x: -textProgress * moveDistance
+                    x: -textProgress * moveDistance,
+                    ease: "back.out(3)"
                 });
 
                 gsap.set(bannerIntroTextElement[1], {
                     x: textProgress * moveDistance,
+                    ease: "back.out(3)"
                 });
             }
 
