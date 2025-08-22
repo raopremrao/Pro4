@@ -38,7 +38,7 @@ document.addEventListener("DOMContentLoaded", () => {
         trigger: ".banner",
         markers: false,
         start: "top top",
-        end: `+=${window.innerHeight * 4}px`,
+        end: `+=${window.innerHeight * 3}px`,
         pin: true,
         pinSpacing: true,
         scrub: 2,
